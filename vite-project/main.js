@@ -1,10 +1,14 @@
 import './style.css'
 
-const URL = "https://api.tcgdex.net/v2/";
+const URL = "http://deckofcardsapi.com/";
 
-async function getData(URL) {
+async function getData(URL){
+try{
   const response = await fetch(URL);
-  console.log(response);
-
+  const data = await response.json();
+  document.getElementById("api-response").textContent = data.content;
+} catch (error) {
+  console.log(error);
+}
 }
 getData(URL);
