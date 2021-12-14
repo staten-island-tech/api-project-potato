@@ -36,6 +36,6 @@ const apiResponseDOM = document.getElementById("api-response");
 const putQuoteInHTML = async () => {
     // defining an async arrow function
     const quote = await fetchData(apiEntry);
-    apiResponseDOM.innerHTML = `Quote: ${quote.value}`;
+    apiResponseDOM.innerHTML = ` ${quote.value}`;
 };
 putQuoteInHTML();

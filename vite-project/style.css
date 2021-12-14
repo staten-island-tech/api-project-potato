@@ -1,8 +1,50 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --light-yellow: #FFD700;
+  --dark-yellow: #DAA520;
+  --brown: #DC143C;
+  --dark-gray: #A52A2A;
+
+  /*Intentions */
+  --primary: var(--light-yellow);
+  --secondary: var(--dark-yellow);
+
+  /*Typography */
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;  
+}
+
+.Header {
+  font-size: var(--h1);
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: var(--h3);
+  background-color: var(--brown);
+  font-family: 'Bakbak One', cursive;
+  border: var(--h5) solid black;
+}
+
+.background{
+  background-color: var(--dark-yellow);
+
+}
+.joke{
+  font-size: var(--h3);
+  text-align: center;
+}
+
+.button{
+  margin: var(--h5) auto;
+
 }
