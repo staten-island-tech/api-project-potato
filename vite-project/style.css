@@ -30,9 +30,10 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-color: var(--brown);
+  background-color: black;
   font-family: 'Bakbak One', cursive;
-  border: var(--h5) solid black;
+  border: var(--h5) solid #F0FFFF;
+  color: #F0FFFF;
 }
 
 .background{
