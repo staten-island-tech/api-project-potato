@@ -30,19 +30,20 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-color: black;
+  background-color: #1F2833;
   font-family: 'Bakbak One', cursive;
-  border: var(--h5) solid #F0FFFF;
-  color: #F0FFFF;
+  border: var(--h5) solid #C5C6C7;
+  color: #66fcf1;
 }
 
 .background{
-  background-color: var(--dark-yellow);
+  background-color: #1F2833;
 
 }
 .joke{
   font-size: var(--h3);
   text-align: center;
+  color: white;
 }
 
 .button{
