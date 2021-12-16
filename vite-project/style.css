@@ -44,9 +44,28 @@ body,
   font-size: var(--h3);
   text-align: center;
   color: white;
+  margin: 5rem auto ;
 }
 
 .button{
-  margin: var(--h5) auto;
+  background-color: #1F2833;
+  color: white;
+  border:  3px solid  #66fcf1;
+  font-size: 16px;
+  padding: var(--h5);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display:block;
+  margin:0 auto; 
 
+  
+ 
+  
+  
+  
+  
 }
+  
+
+
