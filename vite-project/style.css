@@ -13,6 +13,9 @@ body,
   --dark-yellow: #DAA520;
   --brown: #DC143C;
   --dark-gray: #A52A2A;
+  --neon-blue: #66fcf1;
+  --black:#1F2833;
+  --grey: #C5C6C7;
 
   /*Intentions */
   --primary: var(--light-yellow);
@@ -30,14 +33,14 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-color: #1F2833;
+  background-color: var(--black);
   font-family: 'Bakbak One', cursive;
-  border: var(--h5) solid #C5C6C7;
-  color: #66fcf1;
+  border: var(--h5) solid  var(--grey);
+  color:  var(--neon-blue);
 }
 
 .background{
-  background-color: #1F2833;
+  background-color: var(--black);
 
 }
 .joke{
@@ -48,9 +51,9 @@ body,
 }
 
 .button{
-  background-color: #1F2833;
+  background-color:  var(--black);
   color: white;
-  border:  3px solid  #66fcf1;
+  border:  3px solid  var(--neon-blue);
   font-size: 16px;
   padding: var(--h5);
   text-align: center;
@@ -58,6 +61,7 @@ body,
   justify-content: center;
   display:block;
   margin:0 auto; 
+  
 }
   
 
