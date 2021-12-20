@@ -33,15 +33,18 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-color: var(--black);
+  background-image: url(https://media.istockphoto.com/photos/closeup-ruffled-american-flag-picture-id1154460019?k=20&m=1154460019&s=612x612&w=0&h=F-OA5EXZvM_UlSkjy62iPJzaWaqAUY_rLInDnlcoKKw=);
   font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
-  color:  var(--neon-blue);
+  color:  red;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background{
-  background-color: var(--black);
-
+  background-image: url(https://www.biography.com/.image/t_share/MTQyODEzMjE4OTM3NTEzMTc0/donald_trump_july_2016_getty_images_578546876jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .joke{
   font-size: var(--h3);
@@ -51,9 +54,9 @@ body,
 }
 
 .button{
-  background-color:  var(--black);
+  background-color: var(--black);
   color: white;
-  border:  3px solid  var(--neon-blue);
+  border:  3px solid var(--neon-blue);
   font-size: var(--h4);
   padding: var(--h5);
   text-align: center;

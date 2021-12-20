@@ -1,6 +1,6 @@
 import './style.css'
 
-const apiEntry = "https://api.chucknorris.io/jokes/random";
+const apiEntry = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
 
 
 console.log(fetch(apiEntry));
@@ -26,6 +26,6 @@ fetchData(apiEntry);
 const apiResponseDOM = document.getElementById("api-response");
 const putQuoteInHTML = async () => {
     const quote = await fetchData(apiEntry);
-    apiResponseDOM.innerHTML = ` ${quote.value}`;
+    apiResponseDOM.innerHTML = ` ${quote.message}`;
 };
 putQuoteInHTML();
