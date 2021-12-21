@@ -16,6 +16,7 @@ body,
   --neon-blue: #66fcf1;
   --black:#1F2833;
   --grey: #C5C6C7;
+  --white:	#FFFFFF;
 
   /*Intentions */
   --primary: var(--light-yellow);
@@ -33,16 +34,16 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-image: url(https://media.istockphoto.com/photos/closeup-ruffled-american-flag-picture-id1154460019?k=20&m=1154460019&s=612x612&w=0&h=F-OA5EXZvM_UlSkjy62iPJzaWaqAUY_rLInDnlcoKKw=);
+  background-image: url(https://th.bing.com/th/id/OIP.uteB-qZab5QwHTAx3w_pfgHaE7?pid=ImgDet&rs=1);
   font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
-  color:  red;
+  color:  white;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background{
-  background-image: url(https://www.biography.com/.image/t_share/MTQyODEzMjE4OTM3NTEzMTc0/donald_trump_july_2016_getty_images_578546876jpg.jpg);
+  background-image: url(photos/Donald\ Trump.PNG);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,12 +52,15 @@ body,
   text-align: center;
   color: white;
   margin: 5rem auto ;
+  line-height: 3.75rem;
+  font-weight: 700;
+  width: 25%;
 }
 
 .button{
-  background-color: var(--black);
+  background-color: Transparent;
   color: white;
-  border:  3px solid var(--neon-blue);
+  border:  3px solid var(--white);
   font-size: var(--h4);
   padding: var(--h5);
   text-align: center;
@@ -64,8 +68,12 @@ body,
   justify-content: center;
   display:block;
   margin:0 auto; 
+  cursor: pointer;
   
 }
-  
 
+.button:hover {
+  background-color: var(--white);
+  color: 	#000080;
 
+}
