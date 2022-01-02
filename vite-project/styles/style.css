@@ -12,7 +12,7 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png);
+  background-color: red;
   font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
   color:  white;
@@ -21,23 +21,26 @@ body,
 }
 
 .background{
-  background-image: url(https://compote.slate.com/images/9010535e-5a30-45cc-8038-7486facdcef2.jpeg?width=780&height=520&rect=3000x2000&offset=0x184);
+  background-image: url(https://nypost.com/wp-content/uploads/sites/2/2022/01/donald-trump-210925-02.jpg?quality=80&strip=all);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .joke{
   font-size: var(--h3);
   text-align: center;
-  color: white;
+  color: black;
   margin: 5rem auto ;
   line-height: 3.75rem;
   font-weight: 700;
   width: 50%;
   letter-spacing: .14rem;
+  background-color: white;
+  border: solid black;
+  padding: 5rem;
 }
 
 .button{
-  background-color: Transparent;
+  background-color: blue;
   color: white;
   border:  3px solid var(--white);
   font-size: var(--h4);
