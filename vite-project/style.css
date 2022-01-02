@@ -77,6 +77,6 @@ body,
 .button:hover {
   background-color: var(--white);
   color: 	var(--dark-blue);
-  cursor: url(photos/magahat.jpeg),auto;
+  cursor: pointer;
 
 }
