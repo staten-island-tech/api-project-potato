@@ -36,7 +36,7 @@ body,
   letter-spacing: .14rem;
   background-color: var(--white);
   border: solid  var(--black);
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .button{
