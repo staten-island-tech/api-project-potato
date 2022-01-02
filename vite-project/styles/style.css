@@ -12,10 +12,10 @@ body,
   font-size: var(--h1);
   text-align: center;
   margin: var(--h3);
-  background-color: red;
+  background-color: var(--red);
   font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
-  color:  white;
+  color:  var(--white);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,20 +28,20 @@ body,
 .joke{
   font-size: var(--h3);
   text-align: center;
-  color: black;
+  color: var(--black);
   margin: 5rem auto ;
   line-height: 3.75rem;
   font-weight: 700;
   width: 50%;
   letter-spacing: .14rem;
-  background-color: white;
-  border: solid black;
+  background-color: var(--white);
+  border: solid  var(--black);
   padding: 5rem;
 }
 
 .button{
-  background-color: blue;
-  color: white;
+  background-color: var(--dark-blue);
+  color: var(--white);
   border:  3px solid var(--white);
   font-size: var(--h4);
   padding: var(--h5);
