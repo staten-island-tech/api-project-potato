@@ -1,4 +1,4 @@
-import './style.css'
+import "../styles/style.css";
 
 const apiEntry = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
 
