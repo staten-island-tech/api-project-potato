@@ -24,6 +24,7 @@ body,
   background-image: url(https://compote.slate.com/images/9010535e-5a30-45cc-8038-7486facdcef2.jpeg?width=780&height=520&rect=3000x2000&offset=0x184);
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 50%;
 }
 .joke{
   font-size: var(--h3);
