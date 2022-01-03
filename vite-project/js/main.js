@@ -26,6 +26,6 @@ fetchData(apiEntry);
 const apiResponseDOM = document.getElementById("api-response");
 const putQuoteInHTML = async () => {
     const quote = await fetchData(apiEntry);
-    apiResponseDOM.innerHTML = ` "${quote.message}" -Donald Trump`;
+    apiResponseDOM.innerHTML = ` "${quote.message}"                                                                                       -Donald Trump`;
 };
 putQuoteInHTML();
