@@ -11,13 +11,13 @@ body,
 .Header {
   font-size: var(--h1);
   text-align: center;
-  margin: var(--h3);
   background-color: red;
   font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
   color:  white;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
+  
+  
 }
 
 .background{
