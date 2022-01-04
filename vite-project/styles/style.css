@@ -8,44 +8,38 @@ body,
   font-size: 62.5%;
 }
 
+.background{
+  background-color: #6495ED;
+}
+
 header {
   font-size: var(--h1);
   background-color: red;
-  font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
   height: 10rem;
 }
+
 .title{
+  margin-left: 5rem;
   color:  white;
   font-family: 'Bakbak One', cursive;
 }
 
 .link-button{
-  background-color:  #000080;
-  color: white;
-  border:  3px solid var(--white);
-  font-size: var(--h4);
-  padding: var(--h5);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display:block;
-  margin:0 auto; 
-  letter-spacing: .14rem;
-  transition: 300ms ;
+ color: beige;
 
 }
 .trump-image{
-  width: 75%;
-  height: 75%;
+  width: 25%;
+  height: 25%;
   margin-bottom: 10px;
-  transition: transform 0.5s;
+  align-items: center;
   position: relative;
-  bottom: 2rem;
-
+  margin: 5rem auto;
+  display: block;
 }
 
-.joke{
+.trump-quote{
   font-size: var(--h3);
   text-align: center;
   color: black;
