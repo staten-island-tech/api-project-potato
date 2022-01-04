@@ -8,23 +8,43 @@ body,
   font-size: 62.5%;
 }
 
-.Header {
+header {
   font-size: var(--h1);
-  text-align: center;
   background-color: red;
   font-family: 'Bakbak One', cursive;
   border: var(--h5) solid  var(--grey);
+  height: 10rem;
+}
+.title{
   color:  white;
-  
-  
-  
+  font-family: 'Bakbak One', cursive;
 }
 
-.background{
-  background-image: url(https://nypost.com/wp-content/uploads/sites/2/2022/01/donald-trump-210925-02.jpg?quality=80&strip=all);
-  background-repeat: no-repeat;
-  background-size: cover;
+.link-button{
+  background-color:  #000080;
+  color: white;
+  border:  3px solid var(--white);
+  font-size: var(--h4);
+  padding: var(--h5);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display:block;
+  margin:0 auto; 
+  letter-spacing: .14rem;
+  transition: 300ms ;
+
 }
+.trump-image{
+  width: 75%;
+  height: 75%;
+  margin-bottom: 10px;
+  transition: transform 0.5s;
+  position: relative;
+  bottom: 2rem;
+
+}
+
 .joke{
   font-size: var(--h3);
   text-align: center;
@@ -40,7 +60,7 @@ body,
   margin-top: 10rem;
 }
 
-.button{
+.reload-button{
   background-color:  #000080;
   color: white;
   border:  3px solid var(--white);
@@ -55,7 +75,7 @@ body,
   transition: 300ms ;
 }
 
-.button:hover {
+.reload-button:hover {
   background-color: var(--white);
   color: 	var(--dark-blue);
   cursor: pointer;
