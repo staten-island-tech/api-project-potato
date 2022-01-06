@@ -25,10 +25,7 @@ header {
   font-family: 'Bakbak One', cursive;
 }
 
-.link-button{
- color: beige;
 
-}
 .trump-image{
   width: 25%;
   height: 25%;
@@ -76,31 +73,3 @@ header {
 
 }
 
-@media (max-width: 150rem) {
-  .trump-image{
-    width: 70%;
-  }
-}
-@media (max-width: 85rem) {
-  .trump-image{
-    width: 70%;
-  }
-  .trump-quote{
-    width: 90%;
-  }
-
-}
-@media (max-width: 35rem) {
-  .trump-image {
-    height: 70%;
-  }
-  .title{
-    font-size: 2.5rem;
-    margin-top: 2rem;
-  }
-  .trump-quote{
-    width: 90%;
-    font-size: 20px;
-    padding: -5px;
-  }
-}
