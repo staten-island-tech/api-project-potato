@@ -8,40 +8,56 @@ body,
   font-size: 62.5%;
 }
 
-.Header {
+.background{
+  background-color: #6495ED;
+}
+header {
   font-size: var(--h1);
-  text-align: center;
-  margin: var(--h3);
-  background-color: var(--red);
-  font-family: 'Bakbak One', cursive;
+  background-color: red;
   border: var(--h5) solid  var(--grey);
-  color:  var(--white);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 10rem;
 }
 
-.background{
-  background-image: url(https://nypost.com/wp-content/uploads/sites/2/2022/01/donald-trump-210925-02.jpg?quality=80&strip=all);
-  background-repeat: no-repeat;
-  background-size: cover;
+.title{
+  margin-left: 5rem;
+  color:  white;
+  font-family: 'Bakbak One', cursive;
 }
-.joke{
+
+
+.trump-image{
+  width: 25%;
+  height: 25%;
+  margin-bottom: 10px;
+  align-items: center;
+  position: relative;
+  margin: 5rem auto;
+  display: block;
+}
+
+.trump-image:hover{
+transform: scale(1.2);
+
+}
+
+.trump-quote{
   font-size: var(--h3);
   text-align: center;
-  color: var(--black);
+  color: black;
   margin: 5rem auto ;
   line-height: 3.75rem;
   font-weight: 700;
   width: 50%;
   letter-spacing: .14rem;
-  background-color: var(--white);
-  border: solid  var(--black);
+  background-color: white;
+  border: solid black;
   padding: 5rem;
+  margin-top: 10rem;
 }
 
-.button{
-  background-color: var(--dark-blue);
-  color: var(--white);
+.reload-button{
+  background-color:  #000080;
+  color: white;
   border:  3px solid var(--white);
   font-size: var(--h4);
   padding: var(--h5);
@@ -51,12 +67,41 @@ body,
   display:block;
   margin:0 auto; 
   letter-spacing: .14rem;
-  transition: 300ms ease-in-out;
+  transition: 300ms ;
 }
 
-.button:hover {
+.reload-button:hover {
   background-color: var(--white);
   color: 	var(--dark-blue);
   cursor: pointer;
 
+}
+
+@media (max-width: 100rem) {
+  .trump-image{
+    width: 90%;
+  }
+}
+@media (max-width: 85rem) {
+  .trump-image{
+    width: 70%;
+  }
+  .trump-quote{
+    width: 90%;
+  }
+
+}
+@media (max-width: 35rem) {
+  .trump-image {
+    height: 70%;
+  }
+  .title{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .trump-quote{
+    width: 90%;
+    font-size: 20px;
+    padding: -5px;
+  }
 }
